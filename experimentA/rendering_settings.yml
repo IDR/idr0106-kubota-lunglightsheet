@@ -1,0 +1,31 @@
+---
+channels:
+    1:
+        active: true
+        color: 00FF00
+        end: 20000.0
+        label: alpha-SMA-FITC
+        max: 65535.0
+        min: 0.0
+        start: 0.0
+    2:
+        active: true
+        color: FF0000
+        end: 30000.0
+        label: VEGFR3-Alexa546
+        max: 65535.0
+        min: 0.0
+        start: 0.0
+    3:
+        active: true
+        color: 00FFFF
+        end: 10000.0
+        label: A549-mCherry
+        max: 65535.0
+        min: 0.0
+        start: 0.0
+greyscale: false
+t: 1
+version: 2
+z: 201
+
