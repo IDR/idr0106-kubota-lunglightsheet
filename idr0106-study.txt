@@ -1,0 +1,103 @@
+# FILL IN AS MUCH INFORMATION AS YOU CAN.  HINTS HAVE BEEN PUT IN SOME FIELDS AFTER THE HASH # SYMBOL. REPLACE THE HINT WITH TEXT WHERE APPROPRIATE.															
+# STUDY DESCRIPTION SECTION																		
+# Section with generic information about the study including title, description, publication details (if applicable) and contact details		
+
+															
+Comment[IDR Study Accession]	idr0106																															
+Study Title	Whole-organ analysis of TGF-beta-mediated remodelling of the tumour microenvironment by tissue clearing																		
+Study Type	imaging method																																
+Study Type Term Source REF	FBbi																																
+Study Type Term Accession	00000222																																
+Study Description	Tissue clearing is one of the most powerful strategies for a comprehensive analysis of disease progression. Here, we established an integrated pipeline that combines tissue clearing, 3D imaging, and machine learning and applied to a mouse tumour model of experimental lung metastasis using human lung adenocarcinoma A549 cells. This pipeline provided the spatial information of the tumour microenvironment. We further explored the role of transforming growth factor-beta (TGF-beta) in cancer metastasis. TGF-beta-stimulated cancer cells enhanced metastatic colonization of unstimulated-cancer cells in vivo when both cells were mixed. RNA-sequencing analysis showed that expression of the genes related to coagulation and inflammation were up-regulated in TGF-beta-stimulated cancer cells. Further, whole-organ analysis revealed accumulation of platelets or macrophages with TGF-beta-stimulated cancer cells, suggesting that TGF-beta might promote remodelling of the tumour microenvironment, enhancing the colonization of cancer cells. Hence, our integrated pipeline for 3D profiling will help the understanding of the tumour microenvironment.  
+
+														
+Study Key Words	Tissue clearing	cancer metastasis	tumor microenvironment																												
+Study Organism	Mus musculus																																
+Study Organism Term Source REF	NCBITaxon																																
+Study Organism Term Accession	10090																																
+Study Experiments Number	1																																
+Study External URL		
+
+
+Study BioImage Archive Accession																															
+Study Public Release Date																		
+																																	
+# Study Publication																																	
+Study PubMed ID	33674758																																
+Study Publication Title	Whole-organ analysis of TGF-beta-mediated remodelling of the tumour microenvironment by tissue clearing																																
+Study Author List	Kubota S, Takahashi K, Mano T, Matsumoto K, Katsumata T, Shi S, Tainaka K, Ueda HR, Ehata S, Miyazono K																													
+Study PMC ID																																	
+Study DOI	https://doi.org/10.1038/s42003-021-01786-y																																																							
+# Study Contacts																																	
+Study Person Last Name	Kubota																																
+Study Person First Name	Shimpei																																	
+Study Person Email	skubota-ngy@umin.ac.jp																																
+Study Person Address	Department of Molecular Pathology, Graduate School of Medicine, The University of Tokyo, 7-3-1 Hongo, Bunkyo-ku, Tokyo 113-0033, Japan																																
+Study Person ORCID	0000-0003-3188-3988																																
+Study Person Roles	submitter																														
+																		
+# Study License and Data DOI																																	
+Study License	CC BY 4.0																																
+Study License URL	https://creativecommons.org/licenses/by/4.0/																														
+Study Copyright	Shimpei Kubota																																
+Study Data Publisher	University of Dundee																																
+Study Data DOI																																															
+Term Source Name	NCBITaxon	EFO	CMPO	FBbi																													
+Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/cmpo/	http://purl.obolibrary.org/obo/															
+																																	
+# EXPERIMENT SECTION																		
+# Experiment Section containing all information relative to each experiment in the study including materials used, protocols names and description, phenotype names and description. For multiple experiments this section should be repeated.  Copy and paste the whole section below and fill out for the next experiment																							
+Experiment Number	1																																
+Comment[IDR Experiment Name]	idr0106-kubota-lunglightsheet/experimentA	
+
+
+Experiment Sample Type	tissue																															
+Experiment Description	Whole lung image of metastatic model mouse.																																
+Experiment Size	5D Images: X=4992, Y=4255, Z=401, Channel=3, T=1	Average Image Dimension (XYZCT):	Total Tb: 47.5 GB
+																												
+Experiment Example Images																															
+Experiment Imaging Method	light sheet fluorescence microscopy																															
+Experiment Imaging Method Term Source REF	Fbbi																																
+Experiment Imaging Method Term Accession	
+
+
+Experiment Comments	tissue clearing																																							
+
+# assay files																																	
+Experiment Assay File																																	
+Experiment Assay File Format	tab-delimited text																																
+Assay Experimental Conditions		
+																									
+Assay Experimental Conditions Term Source REF																														
+Assay Experimental Conditions Term Accession																															
+Quality Control Description																
+																																	
+# Protocols	
+																	
+Protocol Name	growth protocol	treatment protocol	image acquisition and feature extraction protocol	data analysis protocol																													
+Protocol Type	growth protocol	treatment protocol	image acquisition and feature extraction protocol	data analysis protocol																													
+Protocol Type Term Source REF	EFO	EFO																															
+Protocol Type Term Accession	EFO_0003789	EFO_0003969																															
+Protocol Description	For preparation of whole-organ clearing samples, nude mice were sacrificed by an overdose of isoflurane (099-06571, FUJIFILM Wako Pure Chemical Corporation, Tokyo, Japan). Then, 20 ml of phosphate buffered saline (PBS, pH 7.4) and 30 ml of 4% (w/v) paraformaldehyde (PFA, 162-16065, FUJIFILM Wako Pure Chemical Corporation) in PBS were perfused independently via the left ventricle of the heart. The excised organs were post-fixed in 4% (w/v) PFA at room temperature for 2 h. The fixed organs were washed three times with PBS for 1 h to remove PFA just before clearing. For intense tissue decolorization, the fixed organs were immersed in CUBIC-P- with gentle shaking at 37°C for 1 h. Subsequently, the fixed organs were immersed in 50% (v/v) CUBIC-L (1:1 mixture of water and CUBIC-L) and further immersed in CUBIC-L with gentle shaking at 37°C for 11 h. CUBIC-P- and CUBIC-L were refreshed when the cocktail became coloured. After decolorization and delipidation, the organs were washed three times with PBS at room temperature for 2 h. The organs were further immersed in 50% (v/v) CUBIC-R+ (1:1 mixture of water and CUBIC-R+) and then in CUBIC-R+ at room temperature with gentle shaking for 6 h.	Whole organ images were acquired with two custom-build light sheet fluorescence microscopes (MVX10-LS, developed by Olympus, Tokyo, Japan). Images were captured at 0.63 × objective lens (numerical aperture = 0.15, working distance = 87 mm) with digital zoom from 1 × to 6.3 × zoom. Lasers of 488 nm, 532 nm, 590 nm, and 639 nm wavelength were used for image acquisition. To cover whole organs, the stage was moved both in the lateral direction and axial direction. When the stage was moved to the axial direction, the detection objective lens was synchronically moved to the axial direction to avoid defocusing. RI matched sample was immersed in a mixture of silicon oil HIVAC-F4 (RI = 1.555, Shin-Etsu Chemical Co., Ltd., Tokyo, Japan) and mineral oil (RI = 1.467, M8410, Sigma-Aldrich) during image acquisition. 3D rendered images were visualized and captured with Imaris software (version 8.1.2, Bitplane AG, Zurich, Switzerland) and Imaris Viewer (version 9.5.1, Bitplane AG).																																																				
+# Phenotypes																																	
+Phenotype Name																																	
+Phenotype Description																																	
+Phenotype Score Type																																
+Phenotype Term Source REF	CMPO																																
+Phenotype Term Name																																	
+Phenotype Term Accession			 																																																									
+# Feature Level Data Files (give individual file details unless there is one file per well)																																	
+Feature Level Data File Name																																	
+Feature Level Data File Format																																	
+Feature Level Data File Description																																	
+Feature Level Data Column Name																														
+Feature Level Data Column Description																																																											
+#  Processed Data Files 																																	
+Processed Data File Name																																	
+Processed Data File Format	tab-delimited text																																
+Processed Data File Description																																	
+Processed Data Column Name																																	
+Processed Data Column Type																																	
+Processed Data Column Annotation Level																																
+Processed Data Column Description																													
+Processed Data Column Link To Assay File	
