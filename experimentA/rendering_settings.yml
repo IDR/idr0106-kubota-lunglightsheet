@@ -11,7 +11,7 @@ channels:
     2:
         active: true
         color: FF0000
-        end: 30000.0
+        end: 15000.0
         label: VEGFR3-Alexa546
         max: 65535.0
         min: 0.0
