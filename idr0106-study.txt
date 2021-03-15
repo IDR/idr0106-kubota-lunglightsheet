@@ -19,8 +19,9 @@ Study Experiments Number	1
 Study External URL		
 
 
+
 Study BioImage Archive Accession																															
-Study Public Release Date																		
+Study Public Release Date	2021-03-17													
 																																	
 # Study Publication																																	
 Study PubMed ID	33674758																																
